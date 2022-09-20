@@ -1,0 +1,207 @@
+/* *{
+    font-family: font-family: 'Roboto', sans-serif;
+} */
+
+* section{
+    background: rgba(3, 10, 16, 1);
+}
+nav {
+    height: 100px;
+    /* padding: 10px 460px 10px 463px; */
+    background-color: #212121;
+    
+}
+.menu {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+   /*  padding-left: 50px; */
+    margin-left: 131px ;
+    list-style-type: none;
+    
+}
+.menu .menu_item .menu_link {
+    padding-right: 30px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+       
+}
+.menu .menu_item .menu_line {
+height: 56px;
+width: 2px;  
+border: 0px ;
+margin-top: 22px;
+background: linear-gradient(90deg, #EDFF7D 0%, #49F992 100%);
+margin-right: 50px;
+}
+.menu .menu_wrapper{
+    display: flex;
+    align-items: center;
+}
+.menu .menu_wrapper .menu_item /* .menu_link */{
+padding-right: 20px;   
+}
+.cont {
+    position: relative;
+    
+}
+.cont .cont_wrapper {
+background: rgba(3, 10, 16, 1);
+min-height:939px; 
+z-index: -10;
+}
+.cont .cont_wrapper_img {
+position: absolute;
+/* background-image: url('../img/hand_cript.png'); */
+z-index: 1;
+}
+.cont .cont_wrapper .cont_wrapper_item {
+display: block;
+min-height: 864px;
+width: 818px;
+margin-left: 168px;
+padding-top: 256px;
+}
+.cont_wrapper .cont_wrapper_inform .cont_wrapper_inform_text {
+margin-top:56px ;
+height: 224px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #92A7AA;
+text-align: justify;
+}
+.cont .cont_wrapper .cont_wrapper_item .cont_wrapper_button {
+    display: flex;
+margin-top: 56px;    
+
+}
+.cont .cont_wrapper .cont_wrapper_item .cont_wrapper_button_1 {
+
+    
+font-size: 26px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+width: 129px;
+height: 30px;
+font-family: 'Roboto';
+font-style: normal;
+color: #030A10;
+
+/* display: flex;
+flex-direction: row;
+justify-content: center; */
+/* align-items: center; */
+padding: 12px 37px;
+gap: 10px;
+
+/* position: absolute; */
+width: 210px;
+height: 56px;
+left: 0px;
+top: 508px;
+background: linear-gradient(90deg, #EDFF7D 0%, #49F992 100%);
+border-radius: 15px;
+margin-right:42px ;
+cursor: pointer;
+z-index: 100;
+}
+.cont .cont_wrapper .cont_wrapper_item .cont_wrapper_button_2 {
+    z-index: 100;
+    cursor: pointer;
+
+}
+
+.inform {
+    position: relative;
+    display: flex;
+    min-height: 554px;
+    width: 1640px;
+    margin-left: 170px;
+    
+}
+.inform .inform_wrapper_1 {
+display: flex;
+width: 923px;
+}
+.inform .inform_wrapper_1 .inform_block {
+
+min-height: 277px;
+width: 461px;    
+}
+.inform .inform_wrapper_1 .inform_wrapper_1 .inform_bloc .inform_block_img {
+    /* display: flex; */
+    height:80px;
+    width: 80px;
+}
+.inform .inform_wrapper_1 .inform_wrapper_1 .inform_block_title {
+    position: absolute;
+    /* width: 337px;
+    height: 38px; */
+    /* left: 0px;
+    top: 104px; */
+    font-family: 'Gosha Sans';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 32px; */
+    line-height: 38px;
+    color: #FFFFFF;
+    z-index: 90;
+    cursor: pointer;
+}
+.inform .inform_wrapper_2 {
+width:717px ;
+margin-left: 100px;
+
+}
+.inform .inform_wrapper_2 .inform_title {
+/* position: absolute;
+width: 425px;
+height: 116px;
+left: 922px;
+top: 45px;
+ */
+font-family: 'Gosha Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+color: #FFFFFF;
+z-index: 150;
+}
+.inform .inform_wrapper_2 .inform_text{
+margin-top: 50px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #92A7AA;
+text-align: justify;
+}
+.inform .inform_wrapper_2 .cont_wrapper_button_1{
+    margin-top: 50px;
+margin-left: 460px;
+position: absolute;
+width: 210px;
+height: 56px;
+/* left: 1430px;
+top: 423px; */
+background: linear-gradient(90deg, #EDFF7D 0%, #49F992 100%);
+border-radius: 15px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 30px;
+z-index: 150;
